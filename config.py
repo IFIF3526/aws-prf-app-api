@@ -20,14 +20,14 @@ class Config:
     GOOGLE_MAP_NEAR_BY_SEARCH_URL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'
 
     # Aws
-    AWS_ACCESS_KEY = 'AKIAWXNF62KJVP7HTOTC'
-    AWS_SECRET_KEY = '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'
+    AWS_ACCESS_KEY = 'AKIAUG5BIV4JCFV26JP2'
+    AWS_SECRET_KEY = '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'
 
     # S3 버킷이름과 기본 URL 주소 설정
     # S3_BUCKET = 'aws-eb-s3-image-upload-s-serverlessdeploymentbuck-1urrtw2q0mn21'
     # S3_LOCATION = 'https://aws-eb-s3-image-upload-s-serverlessdeploymentbuck-1urrtw2q0mn21.s3.amazonaws.com/'
-    S3_BUCKET = 'prf-image-eyoo95'
-    S3_LOCATION = 'https://prf-image-eyoo95.s3.ap-northeast-2.amazonaws.com/'
+    S3_BUCKET = 'prf-image'
+    S3_LOCATION = 'https://prf-image.s3.ap-northeast-2.amazonaws.com/'
 
     # Naver Clova OCR
     CLOVA_BASE_URL = 'https://7yxqp5f5eh.apigw.ntruss.com/custom/v1/18085/64bb2a0ac257dd5b9447bbc8fdd7c3943550865993828baf7e9a9a56c1717f89/general'
